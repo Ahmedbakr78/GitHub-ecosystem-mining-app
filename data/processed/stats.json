@@ -1,0 +1,794 @@
+{
+ "generated_at": "2026-05-10T22:15:33.369904+00:00",
+ "runtime_seconds": 142.06,
+ "data_source_distribution": {
+  "github_api": 5049
+ },
+ "embedding_method": "BERT/NumPy BERT-Tiny: phob0s/bert-tiny",
+ "total_repos": 5049,
+ "total_technologies": 10470,
+ "total_edges": 1500,
+ "total_communities": 14,
+ "total_rules": 238,
+ "total_categories": 13,
+ "average_bert_confidence": 0.5599,
+ "stars": {
+  "total": 14270429,
+  "mean": 2826.39,
+  "median": 746.0,
+  "max": 195053
+ },
+ "forks": {
+  "total": 2670711,
+  "mean": 528.96,
+  "median": 140.0,
+  "max": 75269
+ },
+ "category_distribution": {
+  "AI/ML Infrastructure": 3760,
+  "Generative AI": 523,
+  "Data Science": 309,
+  "Natural Language Processing": 124,
+  "Computer Vision": 99,
+  "Mobile Development": 96,
+  "Game Development": 34,
+  "Web Development": 30,
+  "Database & Storage": 29,
+  "Blockchain & Web3": 24,
+  "DevOps & Cloud": 12,
+  "Backend & APIs": 8,
+  "Security": 1
+ },
+ "language_distribution": {
+  "Python": 2661,
+  "Jupyter Notebook": 810,
+  "Unknown": 563,
+  "C++": 235,
+  "JavaScript": 115,
+  "TypeScript": 76,
+  "Rust": 61,
+  "Go": 59,
+  "Java": 54,
+  "HTML": 51,
+  "C#": 44,
+  "C": 37,
+  "Julia": 26,
+  "Lua": 24,
+  "Shell": 23,
+  "MATLAB": 23,
+  "Swift": 22,
+  "TeX": 20,
+  "Scala": 12,
+  "Ruby": 12,
+  "R": 11,
+  "CSS": 9,
+  "PHP": 9,
+  "Kotlin": 8,
+  "MDX": 7
+ },
+ "era_distribution": {
+  "Pre-2018": 1242,
+  "2022+": 1234,
+  "2018-2021": 2573
+ },
+ "popularity_distribution": {
+  "mega": 26,
+  "high": 245,
+  "mid": 1691,
+  "rising": 3087
+ },
+ "license_distribution": {
+  "MIT": 1913,
+  "Apache-2.0": 1199,
+  "Unknown": 866,
+  "NOASSERTION": 478,
+  "GPL-3.0": 208,
+  "BSD-3-Clause": 157,
+  "AGPL-3.0": 56,
+  "CC0-1.0": 44,
+  "BSD-2-Clause": 29,
+  "MPL-2.0": 17,
+  "LGPL-3.0": 16,
+  "CC-BY-4.0": 13
+ },
+ "cluster_distribution": {
+  "8": 507,
+  "4": 499,
+  "0": 483,
+  "5": 451,
+  "6": 418,
+  "11": 390,
+  "7": 385,
+  "10": 373,
+  "12": 346,
+  "1": 322,
+  "3": 313,
+  "2": 302,
+  "9": 260
+ },
+ "frequent_itemsets": {
+  "frequent_1_itemsets": 68,
+  "frequent_2_itemsets": 136,
+  "frequent_3_itemsets": 104,
+  "min_support_count": 61
+ },
+ "top_pagerank": [
+  {
+   "tech": "machine-learning",
+   "score": 0.04558222,
+   "repos": 3110
+  },
+  {
+   "tech": "python",
+   "score": 0.04354603,
+   "repos": 3081
+  },
+  {
+   "tech": "deep-learning",
+   "score": 0.04324727,
+   "repos": 3157
+  },
+  {
+   "tech": "pytorch",
+   "score": 0.01650566,
+   "repos": 1104
+  },
+  {
+   "tech": "artificial-intelligence",
+   "score": 0.01548367,
+   "repos": 976
+  },
+  {
+   "tech": "jupyter notebook",
+   "score": 0.01089159,
+   "repos": 810
+  },
+  {
+   "tech": "computer-vision",
+   "score": 0.01063691,
+   "repos": 703
+  },
+  {
+   "tech": "tensorflow",
+   "score": 0.00877297,
+   "repos": 586
+  },
+  {
+   "tech": "data-science",
+   "score": 0.00858805,
+   "repos": 523
+  },
+  {
+   "tech": "natural-language-processing",
+   "score": 0.00776842,
+   "repos": 518
+  },
+  {
+   "tech": "neural-network",
+   "score": 0.00569921,
+   "repos": 357
+  },
+  {
+   "tech": "large-language-model",
+   "score": 0.00431743,
+   "repos": 249
+  },
+  {
+   "tech": "reinforcement-learning",
+   "score": 0.00396105,
+   "repos": 254
+  },
+  {
+   "tech": "deep-neural-networks",
+   "score": 0.00358474,
+   "repos": 220
+  },
+  {
+   "tech": "c++",
+   "score": 0.00353379,
+   "repos": 235
+  },
+  {
+   "tech": "neural-networks",
+   "score": 0.00344078,
+   "repos": 234
+  },
+  {
+   "tech": "object-detection",
+   "score": 0.00336086,
+   "repos": 196
+  },
+  {
+   "tech": "keras",
+   "score": 0.00329627,
+   "repos": 215
+  },
+  {
+   "tech": "awesome-list",
+   "score": 0.00236087,
+   "repos": 151
+  },
+  {
+   "tech": "javascript",
+   "score": 0.00230229,
+   "repos": 149
+  }
+ ],
+ "top_authorities": [
+  {
+   "tech": "python",
+   "score": 0.50902881,
+   "repos": 3081
+  },
+  {
+   "tech": "deep-learning",
+   "score": 0.4928393,
+   "repos": 3157
+  },
+  {
+   "tech": "machine-learning",
+   "score": 0.4555015,
+   "repos": 3110
+  },
+  {
+   "tech": "pytorch",
+   "score": 0.26666517,
+   "repos": 1104
+  },
+  {
+   "tech": "artificial-intelligence",
+   "score": 0.201389,
+   "repos": 976
+  },
+  {
+   "tech": "computer-vision",
+   "score": 0.16456304,
+   "repos": 703
+  },
+  {
+   "tech": "jupyter notebook",
+   "score": 0.15715649,
+   "repos": 810
+  },
+  {
+   "tech": "tensorflow",
+   "score": 0.1496584,
+   "repos": 586
+  },
+  {
+   "tech": "data-science",
+   "score": 0.12836654,
+   "repos": 523
+  },
+  {
+   "tech": "natural-language-processing",
+   "score": 0.12512277,
+   "repos": 518
+  },
+  {
+   "tech": "neural-network",
+   "score": 0.09192347,
+   "repos": 357
+  },
+  {
+   "tech": "reinforcement-learning",
+   "score": 0.06346859,
+   "repos": 254
+  },
+  {
+   "tech": "neural-networks",
+   "score": 0.05994246,
+   "repos": 234
+  },
+  {
+   "tech": "keras",
+   "score": 0.05918288,
+   "repos": 215
+  },
+  {
+   "tech": "large-language-model",
+   "score": 0.05707241,
+   "repos": 249
+  }
+ ],
+ "top_hubs": [
+  {
+   "tech": "python",
+   "score": 0.50902881,
+   "repos": 3081
+  },
+  {
+   "tech": "deep-learning",
+   "score": 0.4928393,
+   "repos": 3157
+  },
+  {
+   "tech": "machine-learning",
+   "score": 0.4555015,
+   "repos": 3110
+  },
+  {
+   "tech": "pytorch",
+   "score": 0.26666517,
+   "repos": 1104
+  },
+  {
+   "tech": "artificial-intelligence",
+   "score": 0.201389,
+   "repos": 976
+  },
+  {
+   "tech": "computer-vision",
+   "score": 0.16456304,
+   "repos": 703
+  },
+  {
+   "tech": "jupyter notebook",
+   "score": 0.15715649,
+   "repos": 810
+  },
+  {
+   "tech": "tensorflow",
+   "score": 0.1496584,
+   "repos": 586
+  },
+  {
+   "tech": "data-science",
+   "score": 0.12836654,
+   "repos": 523
+  },
+  {
+   "tech": "natural-language-processing",
+   "score": 0.12512277,
+   "repos": 518
+  },
+  {
+   "tech": "neural-network",
+   "score": 0.09192347,
+   "repos": 357
+  },
+  {
+   "tech": "reinforcement-learning",
+   "score": 0.06346859,
+   "repos": 254
+  },
+  {
+   "tech": "neural-networks",
+   "score": 0.05994246,
+   "repos": 234
+  },
+  {
+   "tech": "keras",
+   "score": 0.05918288,
+   "repos": 215
+  },
+  {
+   "tech": "large-language-model",
+   "score": 0.05707241,
+   "repos": 249
+  }
+ ],
+ "top_repositories": [
+  {
+   "name": "tensorflow/tensorflow",
+   "stars": 195053,
+   "forks": 75269,
+   "language": "C++",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/tensorflow/tensorflow"
+  },
+  {
+   "name": "AUTOMATIC1111/stable-diffusion-webui",
+   "stars": 162803,
+   "forks": 30321,
+   "language": "Python",
+   "category": "Generative AI",
+   "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui"
+  },
+  {
+   "name": "f/prompts.chat",
+   "stars": 161963,
+   "forks": 21099,
+   "language": "HTML",
+   "category": "Mobile Development",
+   "url": "https://github.com/f/prompts.chat"
+  },
+  {
+   "name": "huggingface/transformers",
+   "stars": 160442,
+   "forks": 33154,
+   "language": "Python",
+   "category": "Generative AI",
+   "url": "https://github.com/huggingface/transformers"
+  },
+  {
+   "name": "pytorch/pytorch",
+   "stars": 99794,
+   "forks": 27740,
+   "language": "Python",
+   "category": "Generative AI",
+   "url": "https://github.com/pytorch/pytorch"
+  },
+  {
+   "name": "rasbt/LLMs-from-scratch",
+   "stars": 92466,
+   "forks": 14280,
+   "language": "Jupyter Notebook",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/rasbt/LLMs-from-scratch"
+  },
+  {
+   "name": "opencv/opencv",
+   "stars": 87415,
+   "forks": 56555,
+   "language": "C++",
+   "category": "Computer Vision",
+   "url": "https://github.com/opencv/opencv"
+  },
+  {
+   "name": "microsoft/ML-For-Beginners",
+   "stars": 85714,
+   "forks": 20751,
+   "language": "Jupyter Notebook",
+   "category": "Blockchain & Web3",
+   "url": "https://github.com/microsoft/ML-For-Beginners"
+  },
+  {
+   "name": "Developer-Y/cs-video-courses",
+   "stars": 81109,
+   "forks": 11211,
+   "language": "Unknown",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/Developer-Y/cs-video-courses"
+  },
+  {
+   "name": "mlabonne/llm-course",
+   "stars": 79140,
+   "forks": 9197,
+   "language": "Unknown",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/mlabonne/llm-course"
+  },
+  {
+   "name": "netdata/netdata",
+   "stars": 78763,
+   "forks": 6429,
+   "language": "C",
+   "category": "Mobile Development",
+   "url": "https://github.com/netdata/netdata"
+  },
+  {
+   "name": "d2l-ai/d2l-zh",
+   "stars": 77759,
+   "forks": 12277,
+   "language": "Python",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/d2l-ai/d2l-zh"
+  },
+  {
+   "name": "dair-ai/Prompt-Engineering-Guide",
+   "stars": 74404,
+   "forks": 8037,
+   "language": "MDX",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/dair-ai/Prompt-Engineering-Guide"
+  },
+  {
+   "name": "tesseract-ocr/tesseract",
+   "stars": 74005,
+   "forks": 10616,
+   "language": "C++",
+   "category": "DevOps & Cloud",
+   "url": "https://github.com/tesseract-ocr/tesseract"
+  },
+  {
+   "name": "binhnguyennus/awesome-scalability",
+   "stars": 70934,
+   "forks": 6988,
+   "language": "Unknown",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/binhnguyennus/awesome-scalability"
+  },
+  {
+   "name": "OpenBB-finance/OpenBB",
+   "stars": 67349,
+   "forks": 6755,
+   "language": "Python",
+   "category": "Backend & APIs",
+   "url": "https://github.com/OpenBB-finance/OpenBB"
+  },
+  {
+   "name": "labmlai/annotated_deep_learning_paper_implementations",
+   "stars": 66580,
+   "forks": 6711,
+   "language": "Python",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/labmlai/annotated_deep_learning_paper_implementations"
+  },
+  {
+   "name": "scikit-learn/scikit-learn",
+   "stars": 66028,
+   "forks": 26996,
+   "language": "Python",
+   "category": "Computer Vision",
+   "url": "https://github.com/scikit-learn/scikit-learn"
+  },
+  {
+   "name": "keras-team/keras",
+   "stars": 64060,
+   "forks": 19766,
+   "language": "Python",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/keras-team/keras"
+  },
+  {
+   "name": "pathwaycom/llm-app",
+   "stars": 59742,
+   "forks": 1436,
+   "language": "Jupyter Notebook",
+   "category": "Mobile Development",
+   "url": "https://github.com/pathwaycom/llm-app"
+  },
+  {
+   "name": "CorentinJ/Real-Time-Voice-Cloning",
+   "stars": 59727,
+   "forks": 9401,
+   "language": "Python",
+   "category": "Generative AI",
+   "url": "https://github.com/CorentinJ/Real-Time-Voice-Cloning"
+  },
+  {
+   "name": "ultralytics/yolov5",
+   "stars": 57350,
+   "forks": 17481,
+   "language": "Python",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/ultralytics/yolov5"
+  },
+  {
+   "name": "ultralytics/ultralytics",
+   "stars": 56962,
+   "forks": 10942,
+   "language": "Python",
+   "category": "AI/ML Infrastructure",
+   "url": "https://github.com/ultralytics/ultralytics"
+  },
+  {
+   "name": "ageitgey/face_recognition",
+   "stars": 56391,
+   "forks": 13721,
+   "language": "Python",
+   "category": "Generative AI",
+   "url": "https://github.com/ageitgey/face_recognition"
+  },
+  {
+   "name": "deepfakes/faceswap",
+   "stars": 55224,
+   "forks": 13396,
+   "language": "Python",
+   "category": "Blockchain & Web3",
+   "url": "https://github.com/deepfakes/faceswap"
+  }
+ ],
+ "trends": {
+  "machine-learning": {
+   "2008": 1,
+   "2009": 5,
+   "2010": 5,
+   "2011": 12,
+   "2012": 13,
+   "2013": 19,
+   "2014": 54,
+   "2015": 87,
+   "2016": 213,
+   "2017": 405,
+   "2018": 471,
+   "2019": 407,
+   "2020": 415,
+   "2021": 271,
+   "2022": 263,
+   "2023": 242,
+   "2024": 119,
+   "2025": 84,
+   "2026": 24
+  },
+  "python": {
+   "2009": 1,
+   "2010": 3,
+   "2011": 5,
+   "2012": 6,
+   "2013": 9,
+   "2014": 25,
+   "2015": 54,
+   "2016": 160,
+   "2017": 412,
+   "2018": 460,
+   "2019": 425,
+   "2020": 422,
+   "2021": 319,
+   "2022": 298,
+   "2023": 255,
+   "2024": 130,
+   "2025": 76,
+   "2026": 21
+  },
+  "deep-learning": {
+   "2010": 1,
+   "2012": 5,
+   "2013": 2,
+   "2014": 16,
+   "2015": 55,
+   "2016": 184,
+   "2017": 462,
+   "2018": 503,
+   "2019": 451,
+   "2020": 432,
+   "2021": 360,
+   "2022": 319,
+   "2023": 214,
+   "2024": 90,
+   "2025": 50,
+   "2026": 13
+  },
+  "pytorch": {
+   "2010": 1,
+   "2014": 2,
+   "2015": 3,
+   "2016": 17,
+   "2017": 137,
+   "2018": 173,
+   "2019": 195,
+   "2020": 175,
+   "2021": 151,
+   "2022": 137,
+   "2023": 71,
+   "2024": 26,
+   "2025": 12,
+   "2026": 4
+  },
+  "artificial-intelligence": {
+   "2010": 1,
+   "2011": 1,
+   "2012": 1,
+   "2013": 5,
+   "2014": 10,
+   "2015": 11,
+   "2016": 32,
+   "2017": 80,
+   "2018": 101,
+   "2019": 101,
+   "2020": 114,
+   "2021": 74,
+   "2022": 109,
+   "2023": 163,
+   "2024": 94,
+   "2025": 63,
+   "2026": 16
+  },
+  "jupyter notebook": {
+   "2012": 2,
+   "2013": 1,
+   "2014": 5,
+   "2015": 18,
+   "2016": 46,
+   "2017": 112,
+   "2018": 138,
+   "2019": 119,
+   "2020": 123,
+   "2021": 78,
+   "2022": 86,
+   "2023": 48,
+   "2024": 26,
+   "2025": 7,
+   "2026": 1
+  },
+  "computer-vision": {
+   "2011": 2,
+   "2012": 3,
+   "2013": 2,
+   "2014": 5,
+   "2015": 10,
+   "2016": 29,
+   "2017": 75,
+   "2018": 106,
+   "2019": 116,
+   "2020": 94,
+   "2021": 90,
+   "2022": 84,
+   "2023": 48,
+   "2024": 25,
+   "2025": 10,
+   "2026": 4
+  },
+  "tensorflow": {
+   "2010": 1,
+   "2014": 1,
+   "2015": 13,
+   "2016": 75,
+   "2017": 154,
+   "2018": 130,
+   "2019": 99,
+   "2020": 60,
+   "2021": 27,
+   "2022": 18,
+   "2023": 4,
+   "2024": 1,
+   "2025": 3
+  },
+  "data-science": {
+   "2010": 1,
+   "2011": 2,
+   "2012": 1,
+   "2013": 2,
+   "2014": 10,
+   "2015": 21,
+   "2016": 36,
+   "2017": 69,
+   "2018": 86,
+   "2019": 69,
+   "2020": 88,
+   "2021": 34,
+   "2022": 46,
+   "2023": 23,
+   "2024": 23,
+   "2025": 9,
+   "2026": 3
+  },
+  "natural-language-processing": {
+   "2009": 1,
+   "2010": 1,
+   "2011": 3,
+   "2014": 7,
+   "2015": 8,
+   "2016": 31,
+   "2017": 69,
+   "2018": 65,
+   "2019": 82,
+   "2020": 74,
+   "2021": 47,
+   "2022": 43,
+   "2023": 56,
+   "2024": 15,
+   "2025": 13,
+   "2026": 3
+  },
+  "neural-network": {
+   "2010": 1,
+   "2011": 1,
+   "2012": 2,
+   "2013": 1,
+   "2014": 4,
+   "2015": 18,
+   "2016": 34,
+   "2017": 73,
+   "2018": 71,
+   "2019": 40,
+   "2020": 39,
+   "2021": 27,
+   "2022": 24,
+   "2023": 12,
+   "2024": 5,
+   "2025": 3,
+   "2026": 2
+  },
+  "large-language-model": {
+   "2014": 1,
+   "2016": 1,
+   "2017": 4,
+   "2018": 8,
+   "2019": 15,
+   "2020": 11,
+   "2021": 9,
+   "2022": 20,
+   "2023": 81,
+   "2024": 48,
+   "2025": 39,
+   "2026": 12
+  }
+ },
+ "insights": [
+  "machine-learning is the most central technology by PageRank, appearing in 3110 repositories.",
+  "The strongest association rule is deep-reinforcement-learning -> reinforcement-learning with lift 12.89952 and confidence 0.64894.",
+  "AI/ML Infrastructure is the largest semantic category with 3760 repositories."
+ ]
+}

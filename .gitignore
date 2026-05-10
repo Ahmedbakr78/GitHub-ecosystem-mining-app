@@ -1,0 +1,7 @@
+.venv/
+.env
+.env.*
+__pycache__/
+*.pyc
+models/bert-tiny/model.safetensors
+models/bert-tiny/*.tmp
